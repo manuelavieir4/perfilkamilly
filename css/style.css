@@ -98,3 +98,22 @@ i{
     height: 3.25rem;
 
   }
+  #toggleTheme{
+    font-size:1.5rem ;
+    color: var(--icon-color);
+    cursor: pointer;
+    transition: ease-in-out .4s;/*efeitos de animação*/
+  }
+
+  .menu{
+    display: flex;
+    /*torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens*/
+    align-items: center;
+    background: var(--primary-bg-color);
+    gap: 1rem;
+  }
+  .menu-link{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
