@@ -159,3 +159,35 @@ i{
     .menu-icon{
       font-size: 1.5rem;
     }
+    
+    .menu-text{
+      font-size: .75rem;
+      text-transform: capitalize;
+    }
+    .header-nav{
+      display: none;
+    }
+    .menu-principal{
+      gap: 1rem;
+    }
+
+    /*====---------------------*/
+
+    /*css responsivo*/
+    @media (min-width: 768px) {
+      .header {
+        position: fixed;
+        border-bottom: 1px solid var(--primary-border-color);
+        padding: 1rem 6rem;
+        
+
+      }
+      .nav-mobile{
+        display: none;
+
+      }
+      .header-nav{
+        display: flex;
+      }
+
+    }
