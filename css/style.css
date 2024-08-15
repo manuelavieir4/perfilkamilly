@@ -116,7 +116,7 @@ i{
 
   }
   #toggleTheme{
-    font-size:1.5rem ;
+    font-size: 1.5rem ;
     color: var(--icon-color);
     cursor: pointer;
     transition: ease-in-out .4s;/*efeitos de animação*/
@@ -190,4 +190,4 @@ i{
         display: flex;
       }
 
-    }
+    }     
