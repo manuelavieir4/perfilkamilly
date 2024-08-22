@@ -59,7 +59,7 @@ body{
     --secondary-bg-color: #C7C8C9;
 
     --primary-border-color: #C7C8C9;
-	--secondary-border-color: #9A9A9C;
+	--secondary-border-color: #030303;
 
 	--title-color: #0B0B0F;
 	--link-hover: #a3a2a2;
@@ -186,10 +186,43 @@ html[data-theme="light"] .logo2{
     .menu-principal{
       gap: 1rem;
     }
+    .menu-social{
+      gap: 1rem;
+    }
+    .btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.62rem;
+      width: 100%;
+      background: transparent;
+      border-radius: 3rem;
+      color: var(--secondary-border-color);
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem 1.5rem;
+      transition: ease-in-out .3s;
+    }
+    .btn-primary{
+      border: 1px solid var(--secondary-border-color);
+    }
+    .btn:hover{
+      transform: scale(1.07);
+      transition: ease-in-out .3s;
+    }
+    .btn span,
+    .btn i{
+      font-size: 1.25rem;
+      text-transform: uppercase;
+    }
+    .btn-primary span{
+      color: var(--primary-color);
+    }
+
+
 
     /*====---------------------*/
-
-    /*css responsivo*/
+/*css responsivo*/
     @media (min-width: 768px) {
       .header {
         position: fixed;
