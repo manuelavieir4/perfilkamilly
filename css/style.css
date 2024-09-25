@@ -498,6 +498,12 @@ footer p{
         gap: 4rem;
     }
 }
+    .sobre-descricao h2{
+        text-align: left;
+    }
+    .descricao-button{
+        justify-content: flex-start;
+    }
 
 @media (min-width: 1200px) {
     h2 {
@@ -508,6 +514,9 @@ footer p{
     }
     #home {
         padding: 10rem 6rem 2rem;
+    }
+    .main-content .btn{
+        width: auto;
     }
     p, span, li {
         font-size: 1.15rem;
@@ -527,5 +536,11 @@ footer p{
     }
     h3 {
         font-size: 3.25rem;
+    }
+    .header{
+        padding: 1rem 5rem 2rem;
+    }
+    .projetos, .sobre{
+        padding: 10rem 15rem 4rem;
     }
 }
